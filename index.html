@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+
+#container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    margin: 3%;
+    justify-items: space-between;
+    grid-gap: 10px;
+}
+
+#container img {
+    width: 97%;
+}
+
+#navbar {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+ #lhs {
+  margin-left: 50px;
+ }
+ #lhs img {
+    height: 40px;
+    width: 40px;
+ }
+
+ #rhs img {
+    height: 40px;
+    width: 40px;
+    margin-right: 100px;
+ }
+
+ #middle {
+    display:inline-block;
+    padding: 0px;
+    margin-left: -4px;
+ }
+
+ #middle input{
+    width: 500px;
+    height: 35px;
+    border: 1px solid black;
+ }
+
+ #middle button{
+    height: 39px;
+    border: 1px solid black;
+ }
+</style>
+<body>
+    
+<div id="navbar"></div>
+
+<div id="container"></div>
+
+</body>
+</html>
+
+<script type="module" src="index.js"></script>
